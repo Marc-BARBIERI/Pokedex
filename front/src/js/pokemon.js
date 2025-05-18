@@ -47,7 +47,7 @@ export function insertPokemonInHTML(pokemonData) {
 
 		modalBody.innerHTML = `
       <div class="pokemon__name">${pokemonData.name}</div>
-      <img class="image" src="./assets/img/${pokemonData.id}.webp" alt="${
+      <img class="image" src="img/${pokemonData.id}.webp" alt="${
 				pokemonData.name
 			}">
       <div class="pokemon__types">Types: ${pokemonData.types
