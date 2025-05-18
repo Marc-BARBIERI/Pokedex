@@ -3,12 +3,12 @@
   "description": "Pokemon frontend",
   "type": "module",
   "scripts": {
-    "dev": "vite"
+    "dev": "vite",
+    "build": "vite build"
   },
   "license": "ISC",
   "dependencies": {
-    "vite": "^5.3.3",
-    "build": "vite build"
+    "vite": "^5.3.3",  
   },
   "devDependencies": {
     "eslint": "^9.6.0"
