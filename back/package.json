@@ -6,9 +6,6 @@
   "scripts": {
     "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "db:create": "psql -U pokedex_admin -d pokedex -f ./data/create_tables.sql",
-    "db:populate":"psql -U pokedex_admin -d pokedex -f ./data/seeding_tables.sql",
-    "db:reset": "npm run db:create && npm run db:populate"
   },
   "keywords": [],
   "author": "",
