@@ -14,7 +14,8 @@ export async function getAllPokemons(req,res){
  res.json(pokemons)
 
 } catch (error) {
-    console.log ("Erreur lors de la récupération des pokemons")
+     console.error("Erreur lors de la récupération des pokemons :", error);
+    res.status(500).json({ message: "Erreur lors de la récupération des pokemons" });
   }
 }
 
