@@ -23,5 +23,5 @@ app.use(router);
 
 // Démarrage du serveur
 const port = process.env.PORT || 3000;
-await app.listen(port);
+app.listen(port);
 console.log(`🚀 API demarrée à l'adresse : http://localhost:${port}`);
